@@ -1,0 +1,206 @@
+/* Estilo general */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #ffcce6;
+}
+
+.bg-pink {
+    background-color: #ffcce6;
+}
+
+.text-pink {
+    color: #ff3399;
+}
+
+.btn-pink {
+    background-color: #ff99cc;
+    border-color: #ff99cc;
+    color: white;
+}
+
+.btn-pink:hover {
+    background-color: #ff6699;
+    border-color: #ff6699;
+}
+
+.btn-outline-pink {
+    color: #ff6699;
+    border-color: #ff6699;
+}
+
+.btn-outline-pink:hover {
+    background-color: #ff99cc;
+    color: white;
+}
+
+.navbar-light.bg-light {
+    background-color: #ff3399 !important; /* Cambia a rosado */
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #ffffff; /* Cambia el color del texto a un tono de rosa */
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #ff6699; /* Cambia el color al hacer hover */
+}
+
+
+
+/* Estilos para la barra de búsqueda alineada a la derecha y más larga */
+.search-bar {
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.search-input {
+    width: 400px; /* Campo de búsqueda más largo */
+    font-size: 1.1rem;
+}
+
+/* Estilos del botón del carrito */
+.cart-link img {
+    margin-right: 5px;
+}
+
+/* Selector de cantidad */
+.quantity-selector {
+    width: 120px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+input[type="text"] {
+    width: 50px;
+    text-align: center;
+}
+
+/* Imagen del Rogel más grande */
+.rogel-img {
+    max-width: 100%;
+    height: auto;
+    max-height: 600px;
+    border-radius: 15%; /* Incrementa para hacer el redondeo más notable */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Sombra suave para resaltar la imagen */
+}
+
+
+
+
+/* Botón de agregar */
+.btn-lg {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+}
+
+/* Clase personalizada para margen entre elementos */
+.nav-item {
+    margin-right: 90px; /* Ajusta el valor según sea necesario */
+}
+
+/* styles.css */
+#notification {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 11;
+}
+
+.cart-link {
+    background-color: #ffffff; /* Fondo blanco */
+    color: #ff6699; /* Texto en tono rosado */
+    border: 1px solid #ff6699; /* Borde rosado */
+    padding: 5px 10px;
+    border-radius: 5px; /* Bordes redondeados opcionales */
+    transition: background-color 0.3s, color 0.3s;
+    margin-right: 20px;
+}
+
+.cart-link:hover {
+    background-color: #ff99cc; /* Color de fondo rosado al hacer hover */
+    color: #ffffff; /* Texto blanco al hacer hover */
+}
+
+#logo {
+    height: 55px;
+    border-radius: 50%; /* Hace el icono circular */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Sombra suave */
+    border: 2px solid #ff99cc; /* Borde rosado suave */
+    padding: 5px; /* Espacio entre el borde y la imagen */
+    background-color: #ffffff; /* Fondo blanco para que se vea limpio */
+}
+
+/* Estilo para el select */
+.form-select {
+    font-size: 1rem;
+    padding: 10px 15px;
+    border-radius: 10px; /* Bordes redondeados */
+    border: 1px solid #ff99cc; /* Color de borde */
+    background-color: #fff; /* Fondo blanco */
+    color: #ff3399; /* Color de texto */
+    appearance: none; /* Elimina la flecha predeterminada */
+    outline: none; /* Elimina el borde azul de enfoque */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    transition: all 0.3s ease; /* Transición suave */
+}
+
+/* Cambiar el color del fondo y el borde al hacer hover */
+.form-select:hover {
+    border-color: #ff66b2; /* Borde más oscuro al pasar el mouse */
+    background-color: #ffe6f0; /* Fondo suave al hacer hover */
+}
+
+/* Efecto de enfoque cuando el select tiene el foco */
+.form-select:focus {
+    border-color: #ff3399; /* Borde más fuerte cuando está enfocado */
+    background-color: #fff; /* Fondo blanco al estar enfocado */
+    box-shadow: 0 0 5px rgba(255, 51, 153, 0.5); /* Sombra sutil para destacar */
+}
+
+/* Estilo del contenedor del select */
+.form-select-wrapper {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+/* Opcional: Agregar una flecha personalizada */
+.form-select-wrapper::after {
+    content: '▼'; /* Caracter de la flecha */
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #ff3399; /* Color de la flecha */
+    font-size: 1.2rem;
+    pointer-events: none; /* Asegura que no bloquee el clic */
+}
+
+/* Estilo para las opciones */
+.form-select option {
+    padding: 10px;
+    background-color: #fff;
+    color: #333;
+}
+
+/* Asegurar que el select se vea bien en dispositivos pequeños */
+@media (max-width: 768px) {
+    .form-select {
+        font-size: 0.9rem;
+        padding: 8px 12px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+  

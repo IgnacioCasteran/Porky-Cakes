@@ -1,0 +1,195 @@
+/* Estilo general */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #ffcce6;
+}
+
+.bg-pink {
+    background-color: #ffcce6;
+}
+
+.text-pink {
+    color: #ff3399;
+}
+
+.btn-pink {
+    background-color: #ff99cc;
+    border-color: #ff99cc;
+    color: white;
+}
+
+.btn-pink:hover {
+    background-color: #ff6699;
+    border-color: #ff6699;
+}
+
+.btn-outline-pink {
+    color: #ff6699;
+    border-color: #ff6699;
+}
+
+.btn-outline-pink:hover {
+    background-color: #ff99cc;
+    color: white;
+}
+
+.navbar-light.bg-light {
+    background-color: #ff3399 !important; /* Cambia a rosado */
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #ffffff; /* Cambia el color del texto a un tono de rosa */
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #ff6699; /* Cambia el color al hacer hover */
+}
+
+
+
+/* Estilos para la barra de búsqueda alineada a la derecha y más larga */
+.search-bar {
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.search-input {
+    width: 400px; /* Campo de búsqueda más largo */
+    font-size: 1.1rem;
+}
+
+/* Estilos del botón del carrito */
+.cart-link img {
+    margin-right: 5px;
+}
+
+/* Selector de cantidad */
+.quantity-selector {
+    width: 120px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+input[type="text"] {
+    width: 50px;
+    text-align: center;
+}
+
+/* Clase personalizada para margen entre elementos */
+.nav-item {
+    margin-right: 90px; /* Ajusta el valor según sea necesario */
+}
+
+.cart-link {
+    background-color: #ffffff; /* Fondo blanco */
+    color: #ff6699; /* Texto en tono rosado */
+    border: 1px solid #ff6699; /* Borde rosado */
+    padding: 5px 10px;
+    border-radius: 5px; /* Bordes redondeados opcionales */
+    transition: background-color 0.3s, color 0.3s;
+    margin-right: 20px;
+}
+
+.cart-link:hover {
+    background-color: #ff99cc; /* Color de fondo rosado al hacer hover */
+    color: #ffffff; /* Texto blanco al hacer hover */
+}
+
+#logo {
+    height: 55px;
+    border-radius: 50%; /* Hace el icono circular */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Sombra suave */
+    border: 2px solid #ff99cc; /* Borde rosado suave */
+    padding: 5px; /* Espacio entre el borde y la imagen */
+    background-color: #ffffff; /* Fondo blanco para que se vea limpio */
+}
+
+
+/* -------------------------------------------------------------------------------- */
+
+/* Estilos para la sección del carrito */
+.carrito-section {
+    background-color: #fff;
+    padding: 30px; /* Aumenta el padding para que el contenido interno tenga más espacio */
+    border-radius: 25px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px; /* Aumenta el ancho máximo para que el contenedor sea más grande */
+    margin: auto;
+}
+
+
+.back-link {
+    font-size: 1.5rem;
+    color: #ff6699;
+    text-decoration: none;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.cart-item {
+    background-color: #ffcce6;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.product-image {
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+.product-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+}
+
+.product-size {
+    font-size: 0.9rem;
+    color: #666;
+    margin: 0;
+}
+
+.product-price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.total-section {
+    background-color: #ffcce6;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.btn-pink {
+    background-color: #ff6699;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.btn-pink:hover {
+    background-color: #ff3399;
+}
+
+.btn-outline-danger {
+    color: #ff6699;
+    border-color: #ff6699;
+}
+
+.btn-outline-danger:hover {
+    background-color: #ff99cc;
+    color: white;
+}
+
+.cart-title {
+    font-size: 2.0rem; /* Aumenta el tamaño de fuente solo para "Mi carrito" */
+    color: #ff6699;
+    font-weight: bold;
+}
+
